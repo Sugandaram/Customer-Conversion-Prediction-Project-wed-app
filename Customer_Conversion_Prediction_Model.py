@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-customer_conversion_prediction_model = pickle.load(open('F:/IDM\Video/Guvi_DTM_Videos/Kousik Krishna/Final_Projects_Kousik Krishnan/customer_conversion_prediction_model.sav', 'rb'))
+customer_conversion_prediction_model = pickle.load(open('customer_conversion_prediction_model.sav', 'rb'))
 
 
 
